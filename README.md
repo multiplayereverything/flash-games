@@ -29,7 +29,7 @@ Questions, bugs, or looking for people to play with? Join the [Multiplayer Every
 | Smileys War (2007) | Louissi | [Newgrounds](https://www.newgrounds.com/portal/view/389672) | `SmileysWar_online.swf` (2-4 humans in place of bots, online through Ruffle Together) |
 | Fireboy & Watergirl in The Forest Temple (2009) | Oslo Albet | [Armor Games](https://www.newgrounds.com/portal/view/518816) | `FireboyWatergirlForestTemple_online.swf` (its 2-player co-op, online through Ruffle Together 1.0.3.6) |
 | Dad 'n Me (2005) | Tom Fulp, Dan Paladin | [Newgrounds](https://www.newgrounds.com/portal/view/254456) | `DadNMe_online.swf` (players 2-4 added, online through Ruffle Together 1.0.3.7) |
-| Chaos Faction 2 (2010) | Dissolute Productions | [Newgrounds](https://www.newgrounds.com/portal/view/535370) | `ChaosFaction2_online.swf` (its 2-player Deathmatch, online through Ruffle Together 1.0.3.8) |
+| Chaos Faction 2 (2010) | Dissolute Productions | [Newgrounds](https://www.newgrounds.com/portal/view/535370) | `ChaosFaction2_online.swf` (its Deathmatch for 2 to 6 players, online through Ruffle Together 1.0.5) |
 | Zombotron (2011) | Ant Karlov | [Newgrounds](https://www.newgrounds.com/portal/view/575535) | `Zombotron_online.swf` (players 2-4 added, a camera each, online through Ruffle Together 1.0.3.8) |
 | Hobo (2008) | Seething Swarm | [Armor Games](https://armorgames.com/play/2529/hobo) | `Hobo_online.swf` (players 2-4 added, online through Ruffle Together 1.0.3.9) |
 
@@ -118,14 +118,15 @@ and it will be taken down.
   anyone is still standing. A friend who leaves is removed and the rest play on. With
   one player it is the original game.
 
-- **Chaos Faction 2 Online:** the platform fighter's own 2-player Deathmatch (Keyboard 1 and
-  Keyboard 2, plus up to four CPU fighters) on two PCs through Ruffle Together 1.0.3.8
-  (2 players; key map `chaos-faction-2`, built into Ruffle Together from its next release,
-  passed by the launcher as a file until then). Both players use the game's own keys on their own
-  PC: arrows to move, jump and shield, Z and X to attack, D to drop a weapon, Shift to punch
-  while holding one, T to taunt; the host's Space pauses and the host's mouse runs the menus.
-  Player 2 starts as Keyboard 2. Campaign and Survival stay single-player (the host plays,
-  the friend watches). With one player it is the original game.
+- **Chaos Faction 2 Online:** the platform fighter's Deathmatch for 2 to 6 players through Ruffle
+  Together 1.0.5 (key map `chaos-faction-2`, built in). Players 1 and 2 are the game's own Keyboard 1
+  and Keyboard 2; players 3 to 6 take the game's other four fighters, which are CPUs in the original
+  (their cards still say CPU on the players page; in the match each one is its player's, with a name
+  tag over it). Every player uses the game's own keys on their own PC: arrows to move, jump and
+  shield, Z and X to attack, D to drop a weapon, Shift to punch while holding one, T to taunt; the
+  host's Space pauses and the host's mouse runs the menus, and each friend clicks only their own card.
+  Fighters left over with fewer players stay CPUs if the host keeps them on. Campaign and Survival
+  stay single-player (the host plays, the friends watch). With one player it is the original game.
 
 - **Zombotron Online:** the physics shooter-platformer with players 2 to 4 added, online
   through Ruffle Together 1.0.3.8 (`--coop-keys gun-mayhem-2`, `--coop-players 2-4`; the game
@@ -182,12 +183,13 @@ desync, a 4-player run by test bots through every boss to the ending with no des
 one friend leaving halfway (the other three played on in sync). Not yet played by
 real players on two PCs.
 
-**Chaos Faction 2 for Ruffle Together, build of 2026-10-30** (`ChaosFaction2_online.swf`): 2 players
-through Ruffle Together 1.0.3.8. Tested on one PC: replays identical frame for frame (and identical to the
-original game with one player), every button of both players, Ruffle Together sessions through a relay and
-directly with no desync for a whole Deathmatch to its End of Game screen and for the campaign's last level
-to the ending, and the same match with the friend leaving (the host played on in sync). Not yet played by
-real players on two PCs.
+**Chaos Faction 2 for Ruffle Together, build of 2026-10-31** (`ChaosFaction2_online.swf`): 2 to 6 players
+through Ruffle Together 1.0.5. Tested on one PC: replays with 6 players identical frame for frame, identical
+to the original game with one player, every button of all six players with and without a weapon (except player 2's taunt, which didn't fire at
+the tested moments, as in the 2-player build), Ruffle Together sessions with 6 players through a relay and
+directly with no desync, 6 real windows in sync, and 6 players on the public relay in sync. The 2-player build of 2026-10-30 also passed a whole
+Deathmatch to its End of Game screen, the campaign's last level to the ending, and a friend leaving. Not yet
+played by real players on two PCs.
 
 **Zombotron for Ruffle Together, build of 2026-10-31** (`Zombotron_online.swf`, 1.1: arrows at the screen edge
 point to teammates who are off your screen): 1 to 4 players through
