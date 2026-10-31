@@ -31,6 +31,7 @@ Questions, bugs, or looking for people to play with? Join the [Multiplayer Every
 | Dad 'n Me (2005) | Tom Fulp, Dan Paladin | [Newgrounds](https://www.newgrounds.com/portal/view/254456) | `DadNMe_online.swf` (players 2-4 added, online through Ruffle Together 1.0.3.7) |
 | Chaos Faction 2 (2010) | Dissolute Productions | [Newgrounds](https://www.newgrounds.com/portal/view/535370) | `ChaosFaction2_online.swf` (its 2-player Deathmatch, online through Ruffle Together 1.0.3.8) |
 | Zombotron (2011) | Ant Karlov | [Newgrounds](https://www.newgrounds.com/portal/view/575535) | `Zombotron_online.swf` (players 2-4 added, a camera each, online through Ruffle Together 1.0.3.8) |
+| Hobo (2008) | Seething Swarm | [Armor Games](https://armorgames.com/play/2529/hobo) | `Hobo_online.swf` (players 2-4 added, online through Ruffle Together 1.0.3.9) |
 
 The games belong to their developers and publishers, for use with the Multiplayer Everything launcher and
 mods. The `_online` files are the original games with the Multiplayer Everything
@@ -138,6 +139,18 @@ and it will be taken down.
   use the coins and the mouse of whoever opened them. Friendly fire and players bumping into
   each other are host settings, off by default. A friend who leaves is removed and the rest play
   on. With one player it is the original game.
+
+- **Hobo Online:** the street brawler with players 2 to 4 added, online through Ruffle Together
+  1.0.3.9 (`--coop-keys gun-mayhem-2`, `--coop-players 2-4`; the game then sets its own keys).
+  Every player uses the game's own keys on their own PC: arrows to walk, A to punch, S to kick, the
+  game's combos, and picks up and throws cans and bottles for themselves. Players 2-4 are tinted
+  blue, green and orange, with their own health portrait at the top left and their name over their
+  head. One shared screen: walking scrolls the street for everyone, and it won't scroll a friend off
+  the screen. Enemies go for the nearest player who is up. A player whose health runs out lies down
+  and gets up 8 seconds later with half health while anyone is still standing; when everyone is
+  down it is the game's own game over. A friend who leaves is removed and the rest play on. The
+  host clicks the menus; checkpoint passwords work as in the game. With one player it is the
+  original game.
 The five new mods connect to the Multiplayer Everything relay with room codes. They
 work there once their game ids are added to
 [mods-info](https://github.com/multiplayereverything/mods-info); until then, host
@@ -183,6 +196,14 @@ game with one player), test bots with 2, 3 and 4 players through all 10 levels t
 one friend leaving on level 4, Ruffle Together sessions with 2, 3 and 4 players through a relay and directly
 with no desync (also with a friend leaving), and two real windows with no desync, each showing its own
 player's camera. Not yet played by real players on two PCs.
+
+**Hobo for Ruffle Together, build of 2026-10-31** (`Hobo_online.swf`): 1 to 4 players through Ruffle
+Together 1.0.3.9 and 1.0.4. Tested on one PC: replays identical frame for frame with 2, 3 and 4 players
+(and identical to the original game with one player), Ruffle Together sessions with 2, 3 and 4 players
+through a relay and directly with no desync, the same with one friend leaving (the others played on in
+sync), and test bots with 2 players from level 1 through two checkpoints to level 12 and from the last
+checkpoint to the final boss, with players going down and getting up again. The bots did not beat the
+last boss, so the ending is untested in co-op. Not yet played by real players on two PCs.
 Hosting needs the relay that is built into the launcher (*Host online* starts it).
 
 ## Layout

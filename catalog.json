@@ -83,6 +83,15 @@
                       "description":  "Gun Mayhem 2 for Ruffle Together (up to 4 players online; the game\u0027s own local multiplayer, keys synced by Ruffle Together)"
                   },
                   {
+                      "name":  "Hobo_online.swf",
+                      "game":  "hobo",
+                      "path":  "games/hobo/Hobo_online.swf",
+                      "size":  4980291,
+                      "sha256":  "8de832c0b0c9779a40a6321073ccf1987bb83a4723f85130969b444204d84534",
+                      "updated":  "2026-10-31",
+                      "description":  "Hobo with players 2-4 added (local co-op), played online through Ruffle Together 1.0.3.9+ (--coop-keys gun-mayhem-2, --coop-players 2-4): every player on the game\u0027s own keys (arrows, A punch, S kick) on their own PC, tinted, with their own health portrait and name; one shared screen that won\u0027t scroll a friend off; enemies go for the nearest player; a player who runs out of health gets up again while anyone is standing; a friend who leaves is removed and the rest play on. No netcode; every player needs this exact file. 1 player is the original game."
+                  },
+                  {
                       "name":  "Intrusion_online.swf",
                       "game":  "intrusion",
                       "path":  "games/intrusion/Intrusion_online.swf",
@@ -95,10 +104,10 @@
                       "name":  "Intrusion2_online.swf",
                       "game":  "intrusion2",
                       "path":  "games/intrusion2/Intrusion2_online.swf",
-                      "size":  19125546,
-                      "sha256":  "35cfe955bf4446e483bfd081c47e0d8f874f7363428767ae4ff547e7d7515a7b",
+                      "size":  19126759,
+                      "sha256":  "1cb690b3ead0dc2d44fce742fb7b0453e41108e63539dddb6d87e758eef1ef31",
                       "updated":  "2026-10-31",
-                      "description":  "Intrusion 2 with local co-op for 1-4 soldiers, played online through Ruffle Together 1.0.3.9+. The session sets the player count and every PC gets the game\u0027s own keys (WASD or arrows, Space or click fire, E action, Q/F weapon, P pause); every player aims and fires with their own mouse and has their own crosshair. The view zooms out to fit everyone while each PC's camera follows its own soldier at normal size; a friend who leaves takes their soldier with them. No netcode; every player needs this exact file. With 1 player the co-op code is switched off."
+                      "description":  "Intrusion 2 with local co-op for 1-4 soldiers, played online through Ruffle Together 1.0.3.9+. The session sets the player count and every PC gets the game\u0027s own keys (WASD or arrows, Space or click fire, E action, Q/F weapon, P pause); every player aims and fires with their own mouse and has their own crosshair. The view zooms out to fit everyone while each PC\u0027s camera follows its own soldier at normal size; a friend who leaves takes their soldier with them. No netcode; every player needs this exact file. With 1 player the co-op code is switched off."
                   },
                   {
                       "name":  "RaftWars_online.swf",
