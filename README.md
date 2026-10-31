@@ -70,9 +70,10 @@ and it will be taken down.
   P2 W A D, T, S/Y; P3 and P4 on the numpad. Extra boats wait at the start until their
   player presses a key; the level fails only when every boat is down.
 - **Raft Wars Online:** one to four players on the brothers' raft, taking turns at
-  the bazooka, online through Ruffle Together (`--coop-keys gun-mayhem-2`). PLAYERS on the
-  main menu sets the count; on your turn arrows or WASD aim and set power, Z/T fires, X/Y
-  changes ammo (player 1 can also use the mouse). The host's mouse runs menus and the shop.
+  the bazooka, online through Ruffle Together 1.0.4+ (`--coop-keys gun-mayhem-2`). The room
+  sets the player count; on your turn aim and fire with your own mouse, or arrows/WASD to aim
+  and set power, Z/T to fire, X/Y to change ammo. Everyone can buy in the shop with their own
+  mouse; the host's mouse runs the menus. A friend who leaves is skipped.
 - **Intrusion Online:** the campaign in co-op for up to four soldiers, online through
   Ruffle Together 1.0.3.9 or later. Everyone who joins the room plays (the game sets its own
   key map, so any `--coop-keys` works); each PC plays its own soldier with the original
