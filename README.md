@@ -29,7 +29,7 @@ Questions, bugs, or looking for people to play with? Join the [Multiplayer Every
 | Smileys War (2007) | Louissi | [Newgrounds](https://www.newgrounds.com/portal/view/389672) | `SmileysWar_online.swf` (2-4 humans in place of bots, online through Ruffle Together) |
 | Fireboy & Watergirl in The Forest Temple (2009) | Oslo Albet | [Armor Games](https://www.newgrounds.com/portal/view/518816) | `FireboyWatergirlForestTemple_online.swf` (its 2-player co-op, online through Ruffle Together 1.0.3.6) |
 | Dad 'n Me (2005) | Tom Fulp, Dan Paladin | [Newgrounds](https://www.newgrounds.com/portal/view/254456) | `DadNMe_online.swf` (players 2-4 added, online through Ruffle Together 1.0.3.7) |
-| Chaos Faction 2 (2010) | Dissolute Productions | [Newgrounds](https://www.newgrounds.com/portal/view/535370) | `ChaosFaction2_online.swf` (its Deathmatch for 2 to 6 players, online through Ruffle Together 1.0.5) |
+| Chaos Faction 2 (2010) | Dissolute Productions | [Newgrounds](https://www.newgrounds.com/portal/view/535370) | `ChaosFaction2_online.swf` (its Deathmatch for 2 to 6 players and its campaign for 1 to 6, online through Ruffle Together 1.0.5) |
 | Zombotron (2011) | Ant Karlov | [Newgrounds](https://www.newgrounds.com/portal/view/575535) | `Zombotron_online.swf` (players 2-4 added, a camera each, online through Ruffle Together 1.0.3.8) |
 | Hobo (2008) | Seething Swarm | [Armor Games](https://armorgames.com/play/2529/hobo) | `Hobo_online.swf` (players 2-4 added, online through Ruffle Together 1.0.3.9) |
 
@@ -125,8 +125,10 @@ and it will be taken down.
   tag over it). Every player uses the game's own keys on their own PC: arrows to move, jump and
   shield, Z and X to attack, D to drop a weapon, Shift to punch while holding one, T to taunt; the
   host's Space pauses and the host's mouse runs the menus, and each friend clicks only their own card.
-  Fighters left over with fewer players stay CPUs if the host keeps them on. Campaign and Survival
-  stay single-player (the host plays, the friends watch). With one player it is the original game.
+  Fighters left over with fewer players stay CPUs if the host keeps them on. The campaign is for
+  everyone too: each friend gets their own fighter next to player 1 in all 15 levels (with their card's
+  look and their own keys), and a level is lost only when every player is out of lives. Survival stays
+  single-player (the host plays, the friends watch). With one player it is the original game.
 
 - **Zombotron Online:** the physics shooter-platformer with players 2 to 4 added, online
   through Ruffle Together 1.0.3.8 (`--coop-keys gun-mayhem-2`, `--coop-players 2-4`; the game
@@ -183,8 +185,14 @@ desync, a 4-player run by test bots through every boss to the ending with no des
 one friend leaving halfway (the other three played on in sync). Not yet played by
 real players on two PCs.
 
-**Chaos Faction 2 for Ruffle Together, build of 2026-10-31** (`ChaosFaction2_online.swf`): 2 to 6 players
-through Ruffle Together 1.0.5. Tested on one PC: replays with 6 players identical frame for frame, identical
+**Chaos Faction 2 for Ruffle Together, build of 2026-11-01** (`ChaosFaction2_online.swf`, 1.2: campaign with
+friends): the campaign with 2, 4 and 6 players replayed identically frame for frame, every level started and
+played with 3 players, the last level played through its boss to the ending with 3 and 6 players, a level going
+on while one player is still in and failing when all are out, every button of all six players in the campaign,
+Ruffle Together sessions with 2, 4 and 6 players through a relay and directly with no desync (6 players through
+the last level to the ending), a friend leaving mid-level, and one player identical to the original game in
+the campaign and in Deathmatch. The 6-player Deathmatch of 1.1 is unchanged (same fingerprints). Build of
+2026-10-31 (1.1, 2 to 6 players through Ruffle Together 1.0.5), tested on one PC: replays with 6 players identical frame for frame, identical
 to the original game with one player, every button of all six players with and without a weapon (except player 2's taunt, which didn't fire at
 the tested moments, as in the 2-player build), Ruffle Together sessions with 6 players through a relay and
 directly with no desync, 6 real windows in sync, and 6 players on the public relay in sync. The 2-player build of 2026-10-30 also passed a whole

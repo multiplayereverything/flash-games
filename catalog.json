@@ -41,10 +41,10 @@
                       "name":  "ChaosFaction2_online.swf",
                       "game":  "chaosfaction2",
                       "path":  "games/chaosfaction2/ChaosFaction2_online.swf",
-                      "size":  12630997,
-                      "sha256":  "67472a2f727b41f8543462ba61c96accd917287706bcbe450415c1b781ec3ed2",
-                      "updated":  "2026-10-31",
-                      "description":  "Chaos Faction 2 for Ruffle Together 1.0.5+: its Deathmatch for 2 to 6 players (--coop-keys chaos-faction-2; players 1-2 are Keyboard 1 and 2, players 3-6 take the game\u0027s other four fighters; every player on the game\u0027s own keys: arrows, Z, X, D, Shift, T). One player = the original game. Everyone needs this exact file."
+                      "size":  12632087,
+                      "sha256":  "00d2cb2d3354b6772909e099ba023726a16e955cd92f7554c413c9d123395f98",
+                      "updated":  "2026-11-01",
+                      "description":  "Chaos Faction 2 for Ruffle Together 1.0.5+: its Deathmatch for 2 to 6 players and its campaign for 1 to 6 (--coop-keys chaos-faction-2; players 1-2 are Keyboard 1 and 2, players 3-6 take the game\u0027s other four fighters; every player on the game\u0027s own keys: arrows, Z, X, D, Shift, T). One player = the original game. Everyone needs this exact file."
                   },
                   {
                       "name":  "DadNMe_online.swf",
