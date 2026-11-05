@@ -56,6 +56,15 @@
                       "description":  "Dad \u0027n Me with players 2-4 added (local co-op), played online through Ruffle Together 1.0.3.7 (--coop-keys gun-mayhem-2, --coop-players 2-4): every player on the game\u0027s own keys (arrows, A, S) on their own PC, with their own HUD and name at the top left, enemies go for the nearest player, one shared screen, a knocked-out player gets up again while anyone is standing, a friend who leaves is removed and the rest play on; friendly fire with the host\u0027s --coop-option friendlyfire=1. No netcode; every player needs this exact file. 1 player is the original game."
                   },
                   {
+                      "name":  "Electricman2HS_online.swf",
+                      "game":  "electricman2hs",
+                      "path":  "games/electricman2hs/Electricman2HS_online.swf",
+                      "size":  2980361,
+                      "sha256":  "5f6bdc37210ce2294a2bc5d80a9919ec9d0a4e02c737d7edb34afe7b30181608",
+                      "updated":  "2026-11-05",
+                      "description":  "Electricman 2 HS with players 2-4 added (local co-op), played online through Ruffle Together 1.0.6+ (--coop-keys gun-mayhem-2, --coop-players 2-4): a team fights the tournament in one arena, every player on the game\u0027s own keys on their own PC, own colour, health, battery and name; a player out of health stays down until the match ends; a friend who leaves is removed and the rest play on. No netcode; every player needs this exact file. 1 player is the original game."
+                  },
+                  {
                       "name":  "FireboyWatergirlForestTemple_online.swf",
                       "game":  "fireboywatergirlforesttemple",
                       "path":  "games/fireboywatergirlforesttemple/FireboyWatergirlForestTemple_online.swf",
@@ -108,6 +117,15 @@
                       "sha256":  "1cb690b3ead0dc2d44fce742fb7b0453e41108e63539dddb6d87e758eef1ef31",
                       "updated":  "2026-10-31",
                       "description":  "Intrusion 2 with local co-op for 1-4 soldiers, played online through Ruffle Together 1.0.3.9+. The session sets the player count and every PC gets the game\u0027s own keys (WASD or arrows, Space or click fire, E action, Q/F weapon, P pause); every player aims and fires with their own mouse and has their own crosshair. The view zooms out to fit everyone while each PC\u0027s camera follows its own soldier at normal size; a friend who leaves takes their soldier with them. No netcode; every player needs this exact file. With 1 player the co-op code is switched off."
+                  },
+                  {
+                      "name":  "MadnessProjectNexus_online.swf",
+                      "game":  "madnessprojectnexus",
+                      "path":  "games/madnessprojectnexus/MadnessProjectNexus_online.swf",
+                      "size":  15630688,
+                      "sha256":  "ee22097b60f2fce5bebbac5c0d04a359e3127f69f03e73614baecd1abbf38900",
+                      "updated":  "2026-11-05",
+                      "description":  ""
                   },
                   {
                       "name":  "RaftWars_online.swf",
