@@ -209,6 +209,15 @@
                       "description":  "Ultimate Crab Battle for Ruffle Together (1.0.3.8+): every player in the session gets a ship (2-4) and plays with the game\u0027s own keys: arrows, A to fire, Ctrl, 1-3, Y/N. One player outside a session = the original game. Everyone needs this exact file."
                   },
                   {
+                      "name":  "WorldsHardestGame_online.swf",
+                      "game":  "worldshardestgame",
+                      "path":  "games/worldshardestgame/WorldsHardestGame_online.swf",
+                      "size":  748116,
+                      "sha256":  "1c44ebda84ea2dc111bc182e41035fc4e4ed11643fc4680a31c41c7caed9919f",
+                      "updated":  "2026-11-05",
+                      "description":  "The World\u0027s Hardest Game with players 2-4 added (local co-op), played online through Ruffle Together 1.0.6+ (--coop-keys gun-mayhem-2, --coop-players 2-4): every player on arrows or WASD on their own PC, own checkpoint, shared coins, and a level ends when everyone stands in the goal. With 1 player it is the original game."
+                  },
+                  {
                       "name":  "Zombotron_online.swf",
                       "game":  "zombotron",
                       "path":  "games/zombotron/Zombotron_online.swf",

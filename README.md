@@ -32,6 +32,7 @@ Questions, bugs, or looking for people to play with? Join the [Multiplayer Every
 | Chaos Faction 2 (2010) | Dissolute Productions | [Newgrounds](https://www.newgrounds.com/portal/view/535370) | `ChaosFaction2_online.swf` (its Deathmatch for 2 to 6 players and its campaign for 1 to 6, online through Ruffle Together 1.0.5) |
 | Zombotron (2011) | Ant Karlov | [Newgrounds](https://www.newgrounds.com/portal/view/575535) | `Zombotron_online.swf` (players 2-4 added, a camera each, online through Ruffle Together 1.0.3.8) |
 | Hobo (2008) | Seething Swarm | [Armor Games](https://armorgames.com/play/2529/hobo) | `Hobo_online.swf` (players 2-4 added, online through Ruffle Together 1.0.3.9) |
+| The World's Hardest Game (2008) | Snubby Land | [Newgrounds](https://www.newgrounds.com/portal/view/431039) | `WorldsHardestGame_online.swf` (players 2-4 added, online through Ruffle Together 1.0.6) |
 
 The games belong to their developers and publishers, for use with the Multiplayer Everything launcher and
 mods. The `_online` files are the original games with the Multiplayer Everything
@@ -143,6 +144,13 @@ and it will be taken down.
   each other are host settings, off by default. A friend who leaves is removed and the rest play
   on. With one player it is the original game.
 
+- **The World's Hardest Game Online:** players 2 to 4 added, online through Ruffle Together 1.0.6
+  (`--coop-keys gun-mayhem-2`, `--coop-players 2-4`). Everyone uses arrows or WASD on their own PC and is a
+  square of their own colour with their name above it; the footer shows each player's deaths. Each player
+  has their own checkpoint. Coins are shared, and the coins you took go back when you die. A level ends when
+  all coins are taken and everyone stands in the goal together. A friend who leaves is removed and the rest
+  play on. With one player it is the original game.
+
 - **Hobo Online:** the street brawler with players 2 to 4 added, online through Ruffle Together
   1.0.3.9 (`--coop-keys gun-mayhem-2`, `--coop-players 2-4`; the game then sets its own keys).
   Every player uses the game's own keys on their own PC: arrows to walk, A to punch, S to kick, the
@@ -215,6 +223,14 @@ sync), and test bots with 2 players from level 1 through two checkpoints to leve
 checkpoint to the final boss, with players going down and getting up again. The bots did not beat the
 last boss, so the ending is untested in co-op. Not yet played by real players on two PCs.
 Hosting needs the relay that is built into the launcher (*Host online* starts it).
+
+**The World's Hardest Game for Ruffle Together, build of 2026-11-05** (`WorldsHardestGame_online.swf`): 1 to 4
+players through Ruffle Together 1.0.6. Tested on one PC: replays identical frame for frame with 2, 3 and 4
+players (and identical to the original game with one player), sessions with 2, 3 and 4 players through a
+relay and directly with no desync, the same with one friend leaving, short 2 and 4 player sessions through
+the central relay, two real windows, and test bots with 2, 3 and 4 players walking every level to the
+finish screen. The bots can't dodge, so enemies were off for them; deaths, checkpoints and returning coins
+were tested separately on some levels. Not yet played by real players on two PCs.
 
 ## Layout
 
