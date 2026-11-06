@@ -140,10 +140,10 @@
                       "name":  "SmileysWar_online.swf",
                       "game":  "smileyswar",
                       "path":  "games/smileyswar/SmileysWar_online.swf",
-                      "size":  3826925,
-                      "sha256":  "6d02e560fb9ad29077c3d98b9f4e8e3b0ac59956c28edf26b0be7f1570234a1f",
-                      "updated":  "2026-10-29",
-                      "description":  "Smileys War for Ruffle Together (1.0.3.4 and later, --coop-keys smileys-war): 2-4 humans take the bots\u0027 places, each on their own keys and own mouse; the game with added local multiplayer, no netcode. Every player needs this exact file."
+                      "size":  3831909,
+                      "sha256":  "acdf7856e433725a1be90151d257402cc26698ea54e0a65153746b27b14a353a",
+                      "updated":  "2026-11-06",
+                      "description":  "Smileys War for Ruffle Together (1.0.6 or later, --coop-keys smileys-war): 2-4 humans take the bots\u0027 places, each on their own keys and own mouse, with their own camera and HUD; a bot takes over a friend who leaves. No netcode; every player needs this exact file."
                   },
                   {
                       "name":  "StealthAssassin_online.swf",

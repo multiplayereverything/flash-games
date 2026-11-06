@@ -99,12 +99,12 @@ and it will be taken down.
   target per extra player, the level fails only when everyone is dead. ONLINE CO-OP
   on the menu, or F9; MODE switches between room codes (default) and Direct IP.
 - **Smileys War Online:** two to four humans take the bots' places in the game's own
-  Deathmatch, Rambo and Team modes, online through Ruffle Together 1.0.3.4 or later
-  (`--coop-keys smileys-war`). On the Arena screen the host clicks HUMANS (1-4) next to
-  the player count; bots fill the rest. Arrows or WASD move and jump, S/Down switches
-  weapon, everyone aims and fires with their own mouse (or Space/F to fire and Q/E to
-  aim). One shared view follows the middle of the humans. With HUMANS 1 it is the
-  original game.
+  Deathmatch, Rambo and Team modes, online through Ruffle Together 1.0.6 or later
+  (`--coop-keys smileys-war`). HUMANS on the Arena screen starts at the number of players
+  who joined; bots fill the rest. Arrows or WASD move and jump, S/Down switches weapon,
+  everyone aims and fires with their own mouse (or Space/F to fire and Q/E to aim). Each
+  PC has its own camera and its own HUD. If a friend leaves, a bot takes over their
+  smiley. With HUMANS 1 it is the original game.
 - **Fireboy & Watergirl Online:** the game's own two-player co-op on two PCs through
   Ruffle Together 1.0.3.6 (`--coop-keys fireboy-watergirl`). The host is Fireboy and the
   friend is Watergirl; each presses arrows or W/A/D on their own PC, and P pauses. The
@@ -197,11 +197,11 @@ lab (17 of 17). Not yet played by two real players on two PCs. Players more than
 see black at the far edge of their view. Report problems in the
 [issues](https://github.com/multiplayereverything/flash-games/issues).
 
-**Smileys War for Ruffle Together, build of 2026-10-29** (`SmileysWar_online.swf`): 2 to 4 humans
-through Ruffle Together 1.0.3.4. Tested on one PC: replays identical frame for frame (and identical to
-the original game with one human), Ruffle Together sessions with 2, 3 and 4 players through a relay
-and directly with no desync, and two real windows with no desync. Not yet played by two real players
-on two PCs.
+**Smileys War for Ruffle Together, build of 2026-11-06** (`SmileysWar_online.swf`): 2 to 4 humans
+through Ruffle Together 1.0.6, each PC with its own camera and HUD. Tested on one PC: replays identical
+frame for frame (and identical to the original game with one human), Ruffle Together sessions with
+2, 3 and 4 players through a relay and directly with no desync, a friend leaving mid-match, and two
+real windows. Not yet played by two real players on two PCs.
 
 **Dad 'n Me for Ruffle Together, build of 2026-10-30** (`DadNMe_online.swf`): 1 to 4 players through
 Ruffle Together 1.0.3.7. Tested on one PC: replays identical frame for frame (and identical to the original
