@@ -254,8 +254,7 @@ players through Ruffle Together 1.0.6. Tested on one PC: replays identical frame
 identical to the original game with one player), sessions with 2, 3 and 4 players through a local relay and directly
 with no desync, the same with one friend leaving, a test bot with 3 players going through rooms and doors, an Arena wave
 and its save, deaths and team wipes, and two real windows (own camera and HUD shown correctly; that lab flagged 4 late
-frames on a busy PC and was not repeated on this build). The bot beat stages 1-A and 1-B and then got stuck in 1-C, so
-**the ending is untested in co-op**. Not yet played by real players on two PCs. The 2026-11-06 build fixes the keys: every key was checked with
+frames on a busy PC and was not repeated on this build). test bots with the players unable to die played every stage to its end in separate runs, including the final boss and the ending with 2, 3 and 4 players (the bots are not real players, and some runs jumped ahead). Not yet played by real players on two PCs. The 2026-11-06 build fixes the keys: every key was checked with
 key messages sent to two and four real windows and in solo.
 
 **The World's Hardest Game for Ruffle Together, build of 2026-11-06** (`WorldsHardestGame_online.swf`, 1.1): 1 to 4
