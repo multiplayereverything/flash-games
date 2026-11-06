@@ -149,10 +149,10 @@
                       "name":  "StealthAssassin_online.swf",
                       "game":  "stealthassassin",
                       "path":  "games/stealthassassin/StealthAssassin_online.swf",
-                      "size":  3397343,
-                      "sha256":  "a7539d49eabeeaececca7f096ffee41fa527fd348a1fa8031293ff3158c51d55",
-                      "updated":  "2026-10-29",
-                      "description":  "Stealth Assassin local co-op for Ruffle Together: 1-4 assassins in one game, each on their own keys (P1 arrows+Z+X, P2 WASD+T+Y, P3/P4 numpad), PLAYERS button on the mission menu, one extra target per extra player. No netcode; every player needs this exact file. 1 player is the original game. Replaces the old relay mod (F9 panel)"
+                      "size":  3398803,
+                      "sha256":  "44f4a50897ff99027f151f9e0a26fdd076e47409b588df3c038c8d04c005ae65",
+                      "updated":  "2026-11-06",
+                      "description":  "Stealth Assassin co-op for Ruffle Together, 2-4 players: everyone gets their own assassin automatically, with one extra green target per extra player plus one more. --coop-keys stealth-assassin. No netcode; every player needs this exact file. Outside a session it is the original game with a PLAYERS button for one keyboard."
                   },
                   {
                       "name":  "stealth_hunter_2.swf",
