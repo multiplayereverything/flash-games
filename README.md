@@ -154,7 +154,7 @@ and it will be taken down.
   rest play on. With one player it is the original game.
 
 - **Madness: Project Nexus Online:** players 2 to 4 added, online through Ruffle Together 1.0.6
-  (`--coop-keys gun-mayhem-2`, `--coop-players 2-4`), in Story and Arena. Player 1 is the mission's hero and each
+  (`--coop-keys stealth-hunter-2`, `--coop-players 2-4`), in Story and Arena. Player 1 is the mission's hero and each
   friend plays a character of their own with the same stats and gear. Everyone has their own camera, HUD, aim and
   mouse, on the game's own keys (WASD or arrows, Q swap, Space dodge and use, R reload, E pick up, Shift bullet time).
   Friends can click the menus too. Any player can use a door or a panel, and a door takes the team along. A player who
@@ -249,13 +249,14 @@ whole tournament to the ending with 2, 3 and 4 players. For that run the players
 short, so it shows the way through, not the balance. Not tried on the central relay. Not yet played by real players
 on two PCs.
 
-**Madness: Project Nexus for Ruffle Together, build of 2026-11-05** (`MadnessProjectNexus_online.swf`): 1 to 4
+**Madness: Project Nexus for Ruffle Together, build of 2026-11-06** (`MadnessProjectNexus_online.swf`): 1 to 4
 players through Ruffle Together 1.0.6. Tested on one PC: replays identical frame for frame with 2, 3 and 4 players (and
 identical to the original game with one player), sessions with 2, 3 and 4 players through a local relay and directly
 with no desync, the same with one friend leaving, a test bot with 3 players going through rooms and doors, an Arena wave
 and its save, deaths and team wipes, and two real windows (own camera and HUD shown correctly; that lab flagged 4 late
 frames on a busy PC and was not repeated on this build). The bot beat stages 1-A and 1-B and then got stuck in 1-C, so
-**the ending is untested in co-op**. Not yet played by real players on two PCs.
+**the ending is untested in co-op**. Not yet played by real players on two PCs. The 2026-11-06 build fixes the keys: every key was checked with
+key messages sent to two and four real windows and in solo.
 
 **The World's Hardest Game for Ruffle Together, build of 2026-11-06** (`WorldsHardestGame_online.swf`, 1.1): 1 to 4
 players through Ruffle Together 1.0.6. Tested on one PC: replays identical frame for frame with 2, 3 and 4
