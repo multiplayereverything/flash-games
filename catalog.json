@@ -122,8 +122,8 @@
                       "name":  "MadnessProjectNexus_online.swf",
                       "game":  "madnessprojectnexus",
                       "path":  "games/madnessprojectnexus/MadnessProjectNexus_online.swf",
-                      "size":  15631046,
-                      "sha256":  "0f9ab8f1afc59e6c53690d8b81377ae3cce0a5781ff29c8f9a8156a2136cfbd2",
+                      "size":  15631074,
+                      "sha256":  "8e9454790f19ee11b2ad9d3255c4f3cd45c9e0268850b08436bd53a9673cbd29",
                       "updated":  "2026-11-06",
                       "description":  "Madness: Project Nexus (Classic) with players 2-4 added (local co-op), played online through Ruffle Together 1.0.6+ (--coop-keys stealth-hunter-2, --coop-players 2-4): every player on the game\u0027s own keys and own mouse on their own PC, with their own camera, HUD and aim, in Story and Arena; a player who dies gets up while anyone else is up; a friend who leaves becomes an AI teammate. No netcode; every player needs this exact file. 1 player is the original game."
                   },
