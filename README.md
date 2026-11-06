@@ -263,7 +263,7 @@ players (and identical to the original game with one player), sessions with 2, 3
 relay and directly with no desync, the same with one friend leaving, short 2 and 4 player sessions through
 the central relay, two real windows, and test bots with 2, 3 and 4 players walking every level to the
 finish screen. The bots can't dodge, so enemies were off for them; deaths, checkpoints and returning coins
-were tested separately on some levels. The owner reports playing it with a friend; no two-PC test of 1.1 yet.
+were tested separately on some levels. The owner reports that 1.0 works well in a 2-player session; 1.1 changes only the display and has not been played by people yet.
 
 ## Layout
 
