@@ -59,10 +59,10 @@
                       "name":  "Electricman2HS_online.swf",
                       "game":  "electricman2hs",
                       "path":  "games/electricman2hs/Electricman2HS_online.swf",
-                      "size":  2980361,
-                      "sha256":  "5f6bdc37210ce2294a2bc5d80a9919ec9d0a4e02c737d7edb34afe7b30181608",
-                      "updated":  "2026-11-05",
-                      "description":  "Electricman 2 HS with players 2-4 added (local co-op), played online through Ruffle Together 1.0.6+ (--coop-keys gun-mayhem-2, --coop-players 2-4): a team fights the tournament in one arena, every player on the game\u0027s own keys on their own PC, own colour, health, battery and name; a player out of health stays down until the match ends; a friend who leaves is removed and the rest play on. No netcode; every player needs this exact file. 1 player is the original game."
+                      "size":  2980375,
+                      "sha256":  "149b7a4202fd030bfaa0d11c333be86ecbbe12d55c25f183f6a1e58a4e5d613c",
+                      "updated":  "2026-11-07",
+                      "description":  "Electricman 2 HS with players 2-4 added (local co-op), played online through Ruffle Together 1.0.7+ (--coop-keys gun-mayhem-2, --coop-players 2-4): a team fights the tournament in one arena, every player on the game\u0027s own keys on their own PC, own colour, health, battery and name; a player out of health stays down until the match ends; a friend who leaves is removed and the rest play on. No netcode; every player needs this exact file. 1 player is the original game."
                   },
                   {
                       "name":  "FireboyWatergirlForestTemple_online.swf",

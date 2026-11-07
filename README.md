@@ -34,7 +34,7 @@ Questions, bugs, or looking for people to play with? Join the [Multiplayer Every
 | Hobo (2008) | Seething Swarm | [Armor Games](https://armorgames.com/play/2529/hobo) | `Hobo_online.swf` (players 2-4 added, online through Ruffle Together 1.0.3.9) |
 | The World's Hardest Game (2008) | Snubby Land | [Newgrounds](https://www.newgrounds.com/portal/view/431039) | `WorldsHardestGame_online.swf` (players 2-4 added, online through Ruffle Together 1.0.6) |
 | Madness: Project Nexus (Classic) (2012) | Michael Swain and Matt "Krinkels" Jolly | [Newgrounds](https://www.newgrounds.com/portal/view/592473) | `MadnessProjectNexus_online.swf` (players 2-4 added, a camera each, online through Ruffle Together 1.0.6) |
-| Electricman 2 HS (2007) | Free World Group version | [Newgrounds](https://www.newgrounds.com/portal/view/363447) | `Electricman2HS_online.swf` (players 2-4 added, online through Ruffle Together 1.0.6) |
+| Electricman 2 HS (2007) | Free World Group version | [Newgrounds](https://www.newgrounds.com/portal/view/363447) | `Electricman2HS_online.swf` (players 2-4 added, online through Ruffle Together 1.0.7) |
 
 The games belong to their developers and publishers, for use with the Multiplayer Everything launcher and
 mods. The `_online` files are the original games with the Multiplayer Everything
@@ -146,7 +146,7 @@ and it will be taken down.
   each other are host settings, off by default. A friend who leaves is removed and the rest play
   on. With one player it is the original game.
 
-- **Electricman 2 HS Online:** players 2 to 4 added, online through Ruffle Together 1.0.6
+- **Electricman 2 HS Online:** players 2 to 4 added, online through Ruffle Together 1.0.7
   (`--coop-keys gun-mayhem-2`, `--coop-players 2-4`). A team fights the whole tournament in the game's one arena, all
   on the game's own keys on their own PC, each in their own colour with their own health, battery and name. Enemies
   go for their nearest player who is up, and there is one extra enemy per extra player. A player out of health stays
@@ -241,13 +241,14 @@ checkpoint to the final boss, with players going down and getting up again. The 
 last boss, so the ending is untested in co-op. Not yet played by real players on two PCs.
 Hosting needs the relay that is built into the launcher (*Host online* starts it).
 
-**Electricman 2 HS for Ruffle Together, build of 2026-11-05** (`Electricman2HS_online.swf`): 1 to 4 players
-through Ruffle Together 1.0.6. Tested on one PC: replays identical frame for frame with 2, 3 and 4 players (and
-identical to the original game with one player), sessions with 2, 3 and 4 players through a local relay with lag and
-directly with no desync, the same with one friend leaving, two real windows, saving and loading in a session, and the
-whole tournament to the ending with 2, 3 and 4 players. For that run the players couldn't die and each fight was cut
-short, so it shows the way through, not the balance. Not tried on the central relay. Not yet played by real players
-on two PCs.
+**Electricman 2 HS for Ruffle Together, build of 2026-11-07** (`Electricman2HS_online.swf`, 1.1: the game no longer
+goes dead when you leave the training or at the end of a fight): 1 to 4 players through Ruffle Together 1.0.7. Tested on
+one PC: every key sent as a key message to real windows on the launcher's line, host and friends, checked by what the
+hero did; lost and won matches and the whole tournament to the ending in real windows; replays identical frame for
+frame with 2, 3 and 4 players (and identical to the original game with one player, whose window now also survives a
+fight's end); sessions with 2, 3 and 4 players through a local relay with lag and directly with no desync, the same with
+one friend leaving; saving and loading (on the build before this fix). For the tournament the players couldn't die and each fight was cut short, so it shows the way through,
+not the balance. Not tried on the central relay. Not yet played by real players on two PCs.
 
 **Madness: Project Nexus for Ruffle Together, build of 2026-11-06** (`MadnessProjectNexus_online.swf`): 1 to 4
 players through Ruffle Together 1.0.6. Tested on one PC: replays identical frame for frame with 2, 3 and 4 players (and
