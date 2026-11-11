@@ -39,6 +39,7 @@ Questions, bugs, or looking for people to play with? Join the [Multiplayer Every
 | Ultimate Flash Sonic (2004) | menace.ch (fan game) | [Web Design Museum](https://www.webdesignmuseum.org/flash-games/ultimate-flash-sonic-in-2004) | `UltimateFlashSonic_online.swf` (players 2-4 added, online through Ruffle Together 1.0.8) |
 | The Skullkid (2002) | "made by chance" (title screen) | [Web Design Museum](https://www.webdesignmuseum.org/flash-games/the-skullkid-in-2002) | `TheSkullkid_online.swf` (a second player added, online through Ruffle Together 1.0.8) |
 | Flash Chess (2002) | Digital Vision Multimedia | [Web Design Museum](https://www.webdesignmuseum.org/flash-games/flash-chess-in-2002) | `FlashChess_online.swf` (a second player in place of the computer, online through Ruffle Together 1.0.8) |
+| Raze (2010) | Juice-Tin, AddisonR (Armor Games) | [Web Design Museum](https://www.webdesignmuseum.org/flash-games/raze-in-2010) | `Raze_online.swf` (players 2-4 added, a camera each, online through Ruffle Together 1.0.8) |
 
 The games belong to their developers and publishers, for use with the Multiplayer Everything launcher and
 mods. The `_online` files are the original games with the Multiplayer Everything
@@ -219,6 +220,16 @@ with your own relay and type its address under SERVER.
   move it is. If the friend leaves, the computer plays red again and the host plays on. With one player it is the
   original game.
 
+- **Raze Online:** players 2 to 4 added, online through Ruffle Together 1.0.8 (`--coop-keys gun-mayhem-2`,
+  `--coop-players 2-4`; the game sets its own keys when a match starts). Each player has their own soldier on the
+  game's own keys and their own mouse on their own PC, a camera that follows them and looks ahead toward their aim,
+  and their own health, shield and gun in the top bar. Quick Match and both campaigns work with friends: friends are
+  on the host's team in the campaign and team modes, everyone fights everyone in Deathmatch and Juggernaut, and a match
+  is won when any player reaches the score. Friends respawn by themselves; in Elimination the match is lost when the
+  host runs out of lives. Only the host uses the menus, pauses and views scores. A friend who leaves takes their soldier
+  with them and the rest play on. Number keys don't pick guns (Q/E and Shift/Enter do). With one player it is the
+  original game.
+
 ## Test status
 
 **Stealth Hunter 2 co-op for Ruffle Together, build of 2026-10-31** (`stealthhunter2_online.swf`,
@@ -336,6 +347,15 @@ whole games to checkmate through a relay and directly with no desync, a friend l
 (the computer took red over), and RESTART. In two real windows the friend's mouse reached the game and could only
 reach the board on its own turn. Clicks in real windows and the host's mouse in real windows are untested (the test
 tool can't press buttons in a Ruffle window), and so is stalemate in a 2-player game. Not yet played by real players on two PCs.
+
+**Raze for Ruffle Together, build of 2026-11-11** (`Raze_online.swf`, 1.0): 1 to 4 players through Ruffle Together
+1.0.8. Tested on one PC: replays identical frame for frame with 2, 3 and 4 players (and identical to the original game
+with one player); sessions with 2, 3 and 4 players through a local relay with lag and directly with no desync, the same
+with one friend leaving; both campaigns, all 30 stages to the game's ending, with 4 players through a local relay with no
+desync (each stage played for a while and then won by the lab, so it shows the way through, not the balance); every key
+and each player's mouse sent as messages to two real windows on the launcher's line, checked by what each soldier did;
+two real windows in sync, each player's own camera and panel checked in screenshots. Not tried on the central relay. Not
+yet played by real players on two PCs.
 
 ## Layout
 

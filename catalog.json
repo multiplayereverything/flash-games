@@ -146,6 +146,15 @@
                       "description":  "Raft Wars with 1-4 player turn co-op on the brothers\u0027 raft, online through Ruffle Together 1.0.4+ (--coop-keys gun-mayhem-2; every player aims with their own keys or mouse and can buy in the shop; a friend who leaves is skipped)"
                   },
                   {
+                      "name":  "Raze_online.swf",
+                      "game":  "raze",
+                      "path":  "games/raze/Raze_online.swf",
+                      "size":  6477797,
+                      "sha256":  "e7c29f6a971bd62bc30f294a7c66541d0aab4b1f8995491fc7aaf385c2337a88",
+                      "updated":  "2026-11-11",
+                      "description":  "Raze (2010) with players 2-4 added (local co-op), played online through Ruffle Together 1.0.8+ (--coop-keys gun-mayhem-2, --coop-players 2-4; the game sets its own keys): each player on their own keys and own mouse, a camera per player, Quick Match and both campaigns. No netcode; every player needs this exact file. 1 player is the original game."
+                  },
+                  {
                       "name":  "Run2_online.swf",
                       "game":  "run2",
                       "path":  "games/run2/Run2_online.swf",
