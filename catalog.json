@@ -218,6 +218,15 @@
                       "description":  "The same Ruffle Together co-op build as stealthhunter2_online.swf (no sponsor preloader)"
                   },
                   {
+                      "name":  "StrikeForceHeroes_online.swf",
+                      "game":  "strikeforceheroes",
+                      "path":  "games/strikeforceheroes/StrikeForceHeroes_online.swf",
+                      "size":  18617228,
+                      "sha256":  "0ec578363501f3b15d1e41cddb4554bc8926e3cc26b941adb01c90fb92988e34",
+                      "updated":  "2026-11-11",
+                      "description":  "Strike Force Heroes (2012, Sky9 Games) with players 2-4 added (local co-op), played online through Ruffle Together 1.0.8+ (--coop-keys gun-mayhem-2, --coop-players 2-4; the game sets its own keys): every friend gets their own soldier next to the bots, on their own keys and own mouse, with their own camera; Quick Match, campaign and challenges. No netcode; every player needs this exact file. 1 player is the original game."
+                  },
+                  {
                       "name":  "TerritoryWar_online.swf",
                       "game":  "territorywar",
                       "path":  "games/territorywar/TerritoryWar_online.swf",

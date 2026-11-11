@@ -42,6 +42,7 @@ Questions, bugs, or looking for people to play with? Join the [Multiplayer Every
 | Flash Chess (2002) | Digital Vision Multimedia | [Web Design Museum](https://www.webdesignmuseum.org/flash-games/flash-chess-in-2002) | `FlashChess_online.swf` (a second player in place of the computer, online through Ruffle Together 1.0.8) |
 | Raze (2010) | Juice-Tin, AddisonR (Armor Games) | [Web Design Museum](https://www.webdesignmuseum.org/flash-games/raze-in-2010) | `Raze_online.swf` (players 2-4 added, a camera each, online through Ruffle Together 1.0.8) |
 | Portal: The Flash Version (2007) | We Create Stuff | [Web Design Museum](https://www.webdesignmuseum.org/flash-games/portal-the-flash-version-in-2007) | `PortalFlash_online.swf` (players 2-4 added, online through Ruffle Together 1.0.8) |
+| Strike Force Heroes (2012) | Sky9 Games (Armor Games, Not Doppler) | [Web Design Museum](https://www.webdesignmuseum.org/flash-games/strike-force-heroes-in-2012) | `StrikeForceHeroes_online.swf` (players 2-4 added, online through Ruffle Together 1.0.8) |
 
 The games belong to their developers and publishers, for use with the Multiplayer Everything launcher and
 mods. The `_online` files are the original games with the Multiplayer Everything
@@ -249,6 +250,14 @@ with your own relay and type its address under SERVER.
   when everyone is through the exit door. Only the host uses the menus. A friend who leaves is removed and the rest play
   on. With one player it is the original game.
 
+- **Strike Force Heroes Online:** players 2 to 4 added, online through Ruffle Together 1.0.8 (`--coop-keys gun-mayhem-2`,
+  `--coop-players 2-4`; the game sets its own keys when it starts). Every friend gets a soldier of their own next to the
+  bots, on the game's own keys and their own mouse to aim and fire, with their own camera, crosshair and (on their PC)
+  their own health, ammo and killstreak panel. Quick Match in every mode (friends on the host's team in team modes, free
+  for all in Deathmatch), the 15-stage campaign and the challenges. A friend's soldier is the host's saved class one to
+  three places after the host's, or the mission's class. Only the host uses the menus. A friend who leaves stays down
+  and the rest play on. With one player it is the original game.
+
 ## Test status
 
 **Stealth Hunter 2 co-op for Ruffle Together, build of 2026-10-31** (`stealthhunter2_online.swf`,
@@ -325,6 +334,15 @@ to the ending in two real windows. In the scripted runs the shootouts were timed
 the real windows, the team's health was kept full. Not tried on the central relay. Not yet played by real players on
 two PCs. The original game can get stuck at the boss when Space is held without key repeat; in co-op the mod makes the
 boss's death stick.
+
+**Strike Force Heroes for Ruffle Together, build of 2026-11-11** (`StrikeForceHeroes_online.swf`, 1.0): 1 to 4 players
+through Ruffle Together 1.0.8. Tested on one PC: replays identical frame for frame with 2, 3 and 4 players, and
+identical to the original game with one player (menus and a played Quick Match); sessions with 2, 3 and 4 players
+through a local relay with lag and directly with no desync, also with a friend leaving; the whole campaign (15 stages and
+the ending) with 2 players over a local relay and with 4 players in replays, by a lab build that ends each mission as won
+(not by playing it); every button of players 2-4 checked in replays; stages 1-3 in two real windows in sync; every key
+sent as a key message to two real windows on the launcher's line (host and one friend). The challenges (same code as
+the campaign) and the central relay not tried. Not yet played by real players on two PCs.
 
 **Portal: The Flash Version for Ruffle Together, build of 2026-11-11** (`PortalFlash_online.swf`, 1.0): 1 to 4 players
 through Ruffle Together 1.0.8. Tested on one PC: replays identical frame for frame with 2, 3 and 4 players, and
