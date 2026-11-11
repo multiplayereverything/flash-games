@@ -164,6 +164,15 @@
                       "description":  "Raze (2010) with players 2-4 added (local co-op), played online through Ruffle Together 1.0.8+ (--coop-keys gun-mayhem-2, --coop-players 2-4; the game sets its own keys): each player on their own keys and own mouse, a camera per player, Quick Match and both campaigns. No netcode; every player needs this exact file. 1 player is the original game."
                   },
                   {
+                      "name":  "Run_online.swf",
+                      "game":  "run",
+                      "path":  "games/run/Run_online.swf",
+                      "size":  1531434,
+                      "sha256":  "a379b53fb7b82931212d3fa7e7efe48f5717daa35b3df81915f63e228d574d3b",
+                      "updated":  "2026-11-11",
+                      "description":  "Run (2008) for 2-4 players online through Ruffle Together 1.0.8+ (--coop-keys gun-mayhem-2, --coop-players 2-4): every player runs their own copy of the game in one session, with their own runner, level and camera, on their own keys on their own PC; everyone starts the mode and level the host picks. With 1 player it is the original game."
+                  },
+                  {
                       "name":  "Run2_online.swf",
                       "game":  "run2",
                       "path":  "games/run2/Run2_online.swf",

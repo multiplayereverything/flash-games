@@ -36,6 +36,7 @@ Questions, bugs, or looking for people to play with? Join the [Multiplayer Every
 | Madness: Project Nexus (Classic) (2012) | Michael Swain and Matt "Krinkels" Jolly | [Newgrounds](https://www.newgrounds.com/portal/view/592473) | `MadnessProjectNexus_online.swf` (players 2-4 added, a camera each, online through Ruffle Together 1.0.6) |
 | Electricman 2 HS (2007) | Free World Group version | [Newgrounds](https://www.newgrounds.com/portal/view/363447) | `Electricman2HS_online.swf` (players 2-4 added, online through Ruffle Together 1.0.7) |
 | Run 2 (2011) | Joseph Cloutier (player_03) | [Web Design Museum](https://www.webdesignmuseum.org/flash-games/run-2-in-2011) | `Run2_online.swf` (players 2-4, each in their own copy of the game, online through Ruffle Together 1.0.8) |
+| Run (2008) | Joseph Cloutier (player_03) | [Web Design Museum](https://www.webdesignmuseum.org/flash-games/run-in-2008) | `Run_online.swf` (players 2-4, each in their own copy of the game, online through Ruffle Together 1.0.8) |
 | Ultimate Flash Sonic (2004) | menace.ch (fan game) | [Web Design Museum](https://www.webdesignmuseum.org/flash-games/ultimate-flash-sonic-in-2004) | `UltimateFlashSonic_online.swf` (players 2-4 added, online through Ruffle Together 1.0.8) |
 | The Skullkid (2002) | "made by chance" (title screen) | [Web Design Museum](https://www.webdesignmuseum.org/flash-games/the-skullkid-in-2002) | `TheSkullkid_online.swf` (a second player added, online through Ruffle Together 1.0.8) |
 | The World's Hardest Game 2 (2008) | Snubby Land | [Web Design Museum](https://www.webdesignmuseum.org/flash-games/the-worlds-hardest-game-2-in-2008) | `WorldsHardestGame2_online.swf` (players 2-4 added, online through Ruffle Together 1.0.8) |
@@ -352,6 +353,15 @@ and 4 players, by a lab build that walks each player to every exit (not by solvi
 real windows; player 2 checked on buttons, boxes, portals, turrets, crushers, energy balls, electric fields, elevators,
 deaths and the exit; every key sent as a key message to two real windows on the launcher's line (one of two runs lost
 keys partway, the other passed every key). Not tried on the central relay. Not yet played by real players on two PCs.
+
+**Run for Ruffle Together, build of 2026-11-11** (`Run_online.swf`, 1.0): 1 to 4 players through Ruffle Together
+1.0.8. Every player runs their own copy of the game; everyone starts the mode and level the host picks, then plays at
+their own pace. Tested on one PC: replays identical frame for frame with 2, 3 and 4 players, and identical to the
+original game with one player; sessions with 2, 3 and 4 players through a local relay with lag and directly with no
+desync, also with a friend leaving and with the host starting a new game mid-level; all 50 Adventure levels in 4
+players' games to the ending, completed by the lab, not played through; every key sent as a key message to two real
+windows on the launcher's line; two real windows smooth with 2 players and with 4 games running (one late frame when
+a game starts). Not tried on the central relay. Not yet played by real players on two PCs.
 
 **Run 2 for Ruffle Together, build of 2026-11-11** (`Run2_online.swf`, 1.0): 1 to 4 players through Ruffle Together
 1.0.8. Tested on one PC: replays identical frame for frame with 2, 3 and 4 players, and identical to the original
