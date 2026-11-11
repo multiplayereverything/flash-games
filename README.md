@@ -244,8 +244,9 @@ with your own relay and type its address under SERVER.
 
 - **Portal: The Flash Version Online:** players 2 to 4 added, online through Ruffle Together 1.0.8 (`--coop-keys gun-mayhem-2`,
   `--coop-players 2-4`; the game sets its own keys when it starts). Each player has their own test subject on the game's
-  own keys and their own mouse to aim the portal gun, with their own crosshair and name. The team shares one blue and
-  one orange portal: anyone can shoot either colour and the last shot wins. Floor buttons, boxes, turrets, crushers,
+  own keys and their own mouse to aim the portal gun (their arm follows their own mouse), with their own crosshair and
+  name. Every player has their own portal pair in their own colours (blue/orange, purple/red, green/lime, pink/white),
+  anyone travels through anyone's portals, and a portal can't land on another portal. Floor buttons, boxes, turrets, crushers,
   energy balls, electric fields, elevators and the level triggers work for every player; each player carries their own
   box, and grabbing one a friend holds takes it. One death restarts the chamber for everyone, and the next chamber starts
   when everyone is through the exit door. Only the host uses the menus. A friend who leaves is removed and the rest play
@@ -345,14 +346,15 @@ the ending) with 2 players over a local relay and with 4 players in replays, by 
 sent as a key message to two real windows on the launcher's line (host and one friend). The challenges (same code as
 the campaign) and the central relay not tried. Not yet played by real players on two PCs.
 
-**Portal: The Flash Version for Ruffle Together, build of 2026-11-11** (`PortalFlash_online.swf`, 1.0): 1 to 4 players
+**Portal: The Flash Version for Ruffle Together, build of 2026-11-11** (`PortalFlash_online.swf`, 1.1: a portal pair
+per player, arms aim at each player's own mouse): 1 to 4 players
 through Ruffle Together 1.0.8. Tested on one PC: replays identical frame for frame with 2, 3 and 4 players, and
 identical to the original game with one player (chambers 1, 21, 25 and 29); sessions with 2, 3 and 4 players through a
 local relay with lag and directly with no desync, also with a friend leaving; all 41 chambers and the credits with 2, 3
 and 4 players, by a lab build that walks each player to every exit (not by solving the puzzles), and the same in two
 real windows; player 2 checked on buttons, boxes, portals, turrets, crushers, energy balls, electric fields, elevators,
-deaths and the exit; every key sent as a key message to two real windows on the launcher's line (one of two runs lost
-keys partway, the other passed every key). Not tried on the central relay. Not yet played by real players on two PCs.
+deaths and the exit; own portal pairs (travel through a friend's pair both ways, a shot onto another portal
+refused) in replays and in sessions; every key sent as a key message to two real windows on the launcher's line (passed). Not tried on the central relay. Not yet played by real players on two PCs.
 
 **Run for Ruffle Together, build of 2026-11-11** (`Run_online.swf`, 1.0): 1 to 4 players through Ruffle Together
 1.0.8. Every player runs their own copy of the game; everyone starts the mode and level the host picks, then plays at

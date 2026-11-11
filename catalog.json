@@ -140,10 +140,10 @@
                       "name":  "PortalFlash_online.swf",
                       "game":  "portalflash",
                       "path":  "games/portalflash/PortalFlash_online.swf",
-                      "size":  7108449,
-                      "sha256":  "efc7ec4fc92a2dc446f7507a90b19cc87b8054a3c5d0a87f53dd667b14e08421",
+                      "size":  7110238,
+                      "sha256":  "374a0b77880093928db6874435d610d8c1c625092c79628b6cefbed2869d66a0",
                       "updated":  "2026-11-11",
-                      "description":  "Portal: The Flash Version (2007, We Create Stuff) with players 2-4 added (local co-op), played online through Ruffle Together 1.0.8+ (--coop-keys gun-mayhem-2, --coop-players 2-4): every player has their own test subject, keys, mouse, crosshair and name; the team shares one blue and one orange portal; one death restarts the chamber for everyone and the next chamber starts when everyone is through the exit. No netcode; every player needs this exact file. 1 player is the original game."
+                      "description":  "Portal: The Flash Version (2007, We Create Stuff) with players 2-4 added (local co-op), played online through Ruffle Together 1.0.8+ (--coop-keys gun-mayhem-2, --coop-players 2-4): every player has their own test subject, keys, mouse, crosshair, name and portal pair (anyone travels through anyone\u0027s portals; a portal can\u0027t land on another); one death restarts the chamber for everyone and the next chamber starts when everyone is through the exit. No netcode; every player needs this exact file. 1 player is the original game."
                   },
                   {
                       "name":  "RaftWars_online.swf",
