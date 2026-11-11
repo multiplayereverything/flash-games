@@ -245,6 +245,15 @@
                       "description":  "Ultimate Crab Battle for Ruffle Together (1.0.3.8+): every player in the session gets a ship (2-4) and plays with the game\u0027s own keys: arrows, A to fire, Ctrl, 1-3, Y/N. One player outside a session = the original game. Everyone needs this exact file."
                   },
                   {
+                      "name":  "UltimateFlashSonic_online.swf",
+                      "game":  "ultimateflashsonic",
+                      "path":  "games/ultimateflashsonic/UltimateFlashSonic_online.swf",
+                      "size":  1527791,
+                      "sha256":  "fce6d3ee15ab2821c43ab7324b25fbdbac2b1aed560c001ad94ef053c96bf59f",
+                      "updated":  "2026-11-11",
+                      "description":  "Ultimate Flash Sonic (2004 fan game) with players 2-4 added (local co-op), played online through Ruffle Together 1.0.8+ (--coop-keys gun-mayhem-2, --coop-players 2-4): every player on arrows or WASD and Space or Z on their own PC, own hero (Sonic, Tails or Knuckles) with a name tag, one shared screen that keeps everyone in view, shared rings and lives; a player who dies comes back next to a friend; a friend who leaves is removed and the rest play on. No netcode; every player needs this exact file. 1 player is the original game."
+                  },
+                  {
                       "name":  "WorldsHardestGame_online.swf",
                       "game":  "worldshardestgame",
                       "path":  "games/worldshardestgame/WorldsHardestGame_online.swf",

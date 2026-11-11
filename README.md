@@ -36,6 +36,7 @@ Questions, bugs, or looking for people to play with? Join the [Multiplayer Every
 | Madness: Project Nexus (Classic) (2012) | Michael Swain and Matt "Krinkels" Jolly | [Newgrounds](https://www.newgrounds.com/portal/view/592473) | `MadnessProjectNexus_online.swf` (players 2-4 added, a camera each, online through Ruffle Together 1.0.6) |
 | Electricman 2 HS (2007) | Free World Group version | [Newgrounds](https://www.newgrounds.com/portal/view/363447) | `Electricman2HS_online.swf` (players 2-4 added, online through Ruffle Together 1.0.7) |
 | Run 2 (2011) | Joseph Cloutier (player_03) | [Web Design Museum](https://www.webdesignmuseum.org/flash-games/run-2-in-2011) | `Run2_online.swf` (players 2-4, each in their own copy of the game, online through Ruffle Together 1.0.8) |
+| Ultimate Flash Sonic (2004) | menace.ch (fan game) | [Web Design Museum](https://www.webdesignmuseum.org/flash-games/ultimate-flash-sonic-in-2004) | `UltimateFlashSonic_online.swf` (players 2-4 added, online through Ruffle Together 1.0.8) |
 | The Skullkid (2002) | "made by chance" (title screen) | [Web Design Museum](https://www.webdesignmuseum.org/flash-games/the-skullkid-in-2002) | `TheSkullkid_online.swf` (a second player added, online through Ruffle Together 1.0.8) |
 
 The games belong to their developers and publishers, for use with the Multiplayer Everything launcher and
@@ -155,6 +156,14 @@ and it will be taken down.
   down until the match ends; the match is lost only when everyone is down. A friend who leaves is removed and the
   rest play on. With one player it is the original game.
 
+- **Ultimate Flash Sonic Online:** players 2 to 4 added, online through Ruffle Together 1.0.8 (`--coop-keys gun-mayhem-2`,
+  `--coop-players 2-4`). Everyone moves with arrows or WASD and jumps with Space or Z on their own PC; the host clicks
+  the menus. Player 1 plays the character picked in the menu and players 2-4 get Sonic, Tails or Knuckles, each with a
+  name tag. One shared screen follows the team and keeps everyone in it; a player held back at the edge for 3 seconds
+  jumps to the one in front. Rings and lives are the team's: a player who dies comes back next to a friend after 3
+  seconds, and the act restarts only when nobody is left. Passing the finish sign takes the whole team out. A friend
+  who leaves is removed and the rest play on. With one player it is the original game.
+
 - **The Skullkid Online:** a second player added, online through Ruffle Together 1.0.8 (`--coop-keys gun-mayhem-2`,
   `--coop-players 2`). Player 2 is a second, blue kid with a name tag; everyone uses arrows and Space on their own PC and
   the host clicks the menus. On the chainsaw floor each kid walks and saws on their own, and whoever reaches the edge
@@ -257,6 +266,15 @@ sync), and test bots with 2 players from level 1 through two checkpoints to leve
 checkpoint to the final boss, with players going down and getting up again. The bots did not beat the
 last boss, so the ending is untested in co-op. Not yet played by real players on two PCs.
 Hosting needs the relay that is built into the launcher (*Host online* starts it).
+
+**Ultimate Flash Sonic for Ruffle Together, build of 2026-11-11** (`UltimateFlashSonic_online.swf`, 1.0): 1 to 4
+players through Ruffle Together 1.0.8. Tested on one PC: replays identical frame for frame with 2, 3 and 4 players (and
+identical to the original game with one player, screenshots included); sessions with 2, 3 and 4 players through a
+local relay with lag and directly with no desync; the whole game to the ending with 2 and with 4 players through the
+relay, in sync; a friend leaving with 2 and with 4 players (the rest played on in sync); every key sent as a key
+message to two real windows on the launcher's line (and in solo), checked by what each hero did, and a friend closing
+their window there. For the run to the ending the heroes kept their rings and each act and boss was cut short, so it
+shows the way through, not the levels. Not tried on the central relay. Not yet played by real players on two PCs.
 
 **The Skullkid for Ruffle Together, build of 2026-11-11** (`TheSkullkid_online.swf`, 1.0): 1 or 2 players through
 Ruffle Together 1.0.8. Tested on one PC: replays identical frame for frame with 2 players, to the ending, with both
