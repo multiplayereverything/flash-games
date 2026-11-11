@@ -137,6 +137,15 @@
                       "description":  "Raft Wars with 1-4 player turn co-op on the brothers\u0027 raft, online through Ruffle Together 1.0.4+ (--coop-keys gun-mayhem-2; every player aims with their own keys or mouse and can buy in the shop; a friend who leaves is skipped)"
                   },
                   {
+                      "name":  "Run2_online.swf",
+                      "game":  "run2",
+                      "path":  "games/run2/Run2_online.swf",
+                      "size":  1080328,
+                      "sha256":  "9a7f679426a2f7f638305784a0e3ce9b18c745bb04df9818e7f278863e2f7626",
+                      "updated":  "2026-11-11",
+                      "description":  "Run 2 (2011) for 2-4 players online through Ruffle Together 1.0.8+ (--coop-keys gun-mayhem-2, --coop-players 2-4): every player runs their own copy of the game in one session, with their own runner, level and camera, on the original keys on their own PC. With 1 player it is the original game."
+                  },
+                  {
                       "name":  "SmileysWar_online.swf",
                       "game":  "smileyswar",
                       "path":  "games/smileyswar/SmileysWar_online.swf",

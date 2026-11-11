@@ -35,6 +35,7 @@ Questions, bugs, or looking for people to play with? Join the [Multiplayer Every
 | The World's Hardest Game (2008) | Snubby Land | [Newgrounds](https://www.newgrounds.com/portal/view/431039) | `WorldsHardestGame_online.swf` (players 2-4 added, online through Ruffle Together 1.0.6) |
 | Madness: Project Nexus (Classic) (2012) | Michael Swain and Matt "Krinkels" Jolly | [Newgrounds](https://www.newgrounds.com/portal/view/592473) | `MadnessProjectNexus_online.swf` (players 2-4 added, a camera each, online through Ruffle Together 1.0.6) |
 | Electricman 2 HS (2007) | Free World Group version | [Newgrounds](https://www.newgrounds.com/portal/view/363447) | `Electricman2HS_online.swf` (players 2-4 added, online through Ruffle Together 1.0.7) |
+| Run 2 (2011) | Joseph Cloutier (player_03) | [Web Design Museum](https://www.webdesignmuseum.org/flash-games/run-2-in-2011) | `Run2_online.swf` (players 2-4, each in their own copy of the game, online through Ruffle Together 1.0.8) |
 
 The games belong to their developers and publishers, for use with the Multiplayer Everything launcher and
 mods. The `_online` files are the original games with the Multiplayer Everything
@@ -153,6 +154,14 @@ and it will be taken down.
   down until the match ends; the match is lost only when everyone is down. A friend who leaves is removed and the
   rest play on. With one player it is the original game.
 
+- **Run 2 Online:** 2 to 4 players online through Ruffle Together 1.0.8 (`--coop-keys gun-mayhem-2`,
+  `--coop-players 2-4`). Run 2 turns its whole tunnel around its one runner, so instead of sharing one tunnel every
+  player runs their own copy of the game in the same session: their own Runner or Skater, level and camera, on the
+  game's own keys on their own PC (arrows or A/D, Space/Up/W to jump, R to restart). Friends pick Runner with Left
+  and Skater with Right; the level select works by keys. Friends start from the host's unlocked levels. Only the
+  host's game plays music, and only the host can pause and use the mouse (editor, options). A friend who leaves is
+  removed and the rest play on. With one player it is the original game.
+
 - **Madness: Project Nexus Online:** players 2 to 4 added, online through Ruffle Together 1.0.6
   (`--coop-keys stealth-hunter-2`, `--coop-players 2-4`), in Story and Arena. Player 1 is the mission's hero and each
   friend plays a character of their own with the same stats and gear. Everyone has their own camera, HUD, aim and
@@ -240,6 +249,14 @@ sync), and test bots with 2 players from level 1 through two checkpoints to leve
 checkpoint to the final boss, with players going down and getting up again. The bots did not beat the
 last boss, so the ending is untested in co-op. Not yet played by real players on two PCs.
 Hosting needs the relay that is built into the launcher (*Host online* starts it).
+
+**Run 2 for Ruffle Together, build of 2026-11-11** (`Run2_online.swf`, 1.0): 1 to 4 players through Ruffle Together
+1.0.8. Tested on one PC: replays identical frame for frame with 2, 3 and 4 players, and identical to the original
+game with one player; sessions with 2, 3 and 4 players through a local relay with lag and directly with no desync,
+also with a friend leaving; every level of both lists and the bonus levels in 4 players' games to the end, completed
+by the lab, not played through; every key sent as a key message to two real windows on the launcher's line; two real
+windows smooth with 2 players, and with 4 games drawn. Not tried on the central relay. Not yet played by real players
+on two PCs.
 
 **Electricman 2 HS for Ruffle Together, build of 2026-11-07** (`Electricman2HS_online.swf`, 1.1: the game no longer
 goes dead when you leave the training or at the end of a fight): 1 to 4 players through Ruffle Together 1.0.7. Tested on
