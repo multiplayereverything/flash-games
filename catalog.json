@@ -74,6 +74,15 @@
                       "description":  "Fireboy \u0026 Watergirl in The Forest Temple for Ruffle Together 1.0.3.6 (--coop-keys fireboy-watergirl, 2 players): the game\u0027s own co-op, host = Fireboy, friend = Watergirl; only the ad, the online hiscore board and the sponsor links removed, no netcode. Every player needs this exact file."
                   },
                   {
+                      "name":  "FlashChess_online.swf",
+                      "game":  "flashchess",
+                      "path":  "games/flashchess/FlashChess_online.swf",
+                      "size":  86556,
+                      "sha256":  "a062425c517ecf68702c87fa445fae100b3e40979a99cf23f451be8e1a3e3da8",
+                      "updated":  "2026-11-11",
+                      "description":  "Flash Chess (2002, Digital Vision Multimedia) for 2 players online through Ruffle Together 1.0.8+ (--coop-keys bow-man, --coop-players 2): the host plays blue, the friend plays red in place of the computer, each moving only their own pieces on their own turn with their own mouse; if the friend leaves, the computer plays red again. No netcode; every player needs this exact file. 1 player is the original game."
+                  },
+                  {
                       "name":  "gunmayhem2.swf",
                       "game":  "gunmayhem2",
                       "path":  "games/gunmayhem2/gunmayhem2.swf",

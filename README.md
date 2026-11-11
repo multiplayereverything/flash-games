@@ -38,6 +38,7 @@ Questions, bugs, or looking for people to play with? Join the [Multiplayer Every
 | Run 2 (2011) | Joseph Cloutier (player_03) | [Web Design Museum](https://www.webdesignmuseum.org/flash-games/run-2-in-2011) | `Run2_online.swf` (players 2-4, each in their own copy of the game, online through Ruffle Together 1.0.8) |
 | Ultimate Flash Sonic (2004) | menace.ch (fan game) | [Web Design Museum](https://www.webdesignmuseum.org/flash-games/ultimate-flash-sonic-in-2004) | `UltimateFlashSonic_online.swf` (players 2-4 added, online through Ruffle Together 1.0.8) |
 | The Skullkid (2002) | "made by chance" (title screen) | [Web Design Museum](https://www.webdesignmuseum.org/flash-games/the-skullkid-in-2002) | `TheSkullkid_online.swf` (a second player added, online through Ruffle Together 1.0.8) |
+| Flash Chess (2002) | Digital Vision Multimedia | [Web Design Museum](https://www.webdesignmuseum.org/flash-games/flash-chess-in-2002) | `FlashChess_online.swf` (a second player in place of the computer, online through Ruffle Together 1.0.8) |
 
 The games belong to their developers and publishers, for use with the Multiplayer Everything launcher and
 mods. The `_online` files are the original games with the Multiplayer Everything
@@ -210,6 +211,14 @@ work there once their game ids are added to
 [mods-info](https://github.com/multiplayereverything/mods-info); until then, host
 with your own relay and type its address under SERVER.
 
+- **Flash Chess Online:** two players on two PCs through Ruffle Together 1.0.8 (`--coop-keys bow-man`,
+  `--coop-players 2`). The host plays blue, the side that moves first; the friend plays red, the computer's side in
+  the original. Each player moves only their own pieces, on their own turn, with their own mouse, by clicking a piece
+  and then a lit square as in the original. Castling, promotion, check, checkmate and stalemate work for both sides.
+  "YOU MOVE" and the win message show on the screen they belong to, and the first line of the move list says whose
+  move it is. If the friend leaves, the computer plays red again and the host plays on. With one player it is the
+  original game.
+
 ## Test status
 
 **Stealth Hunter 2 co-op for Ruffle Together, build of 2026-10-31** (`stealthhunter2_online.swf`,
@@ -319,6 +328,14 @@ relay and directly with no desync, the same with one friend leaving, short 2 and
 the central relay, two real windows, and test bots with 2, 3 and 4 players walking every level to the
 finish screen. The bots can't dodge, so enemies were off for them; deaths, checkpoints and returning coins
 were tested separately on some levels. The owner reports that 1.0 works well in a 2-player session; 1.1 changes only the display and has not been played by people yet.
+
+**Flash Chess for Ruffle Together, build of 2026-11-11** (`FlashChess_online.swf`, 1.0): 1 or 2 players through
+Ruffle Together 1.0.8. Tested on one PC: replays identical frame for frame (and identical to the original game
+with one player, against the computer on both levels), clicks by the player whose turn it isn't changing nothing,
+whole games to checkmate through a relay and directly with no desync, a friend leaving on either player's turn
+(the computer took red over), and RESTART. In two real windows the friend's mouse reached the game and could only
+reach the board on its own turn. Clicks in real windows and the host's mouse in real windows are untested (the test
+tool can't press buttons in a Ruffle window), and so is stalemate in a 2-player game. Not yet played by real players on two PCs.
 
 ## Layout
 
