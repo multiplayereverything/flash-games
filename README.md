@@ -36,6 +36,7 @@ Questions, bugs, or looking for people to play with? Join the [Multiplayer Every
 | Madness: Project Nexus (Classic) (2012) | Michael Swain and Matt "Krinkels" Jolly | [Newgrounds](https://www.newgrounds.com/portal/view/592473) | `MadnessProjectNexus_online.swf` (players 2-4 added, a camera each, online through Ruffle Together 1.0.6) |
 | Electricman 2 HS (2007) | Free World Group version | [Newgrounds](https://www.newgrounds.com/portal/view/363447) | `Electricman2HS_online.swf` (players 2-4 added, online through Ruffle Together 1.0.7) |
 | Run 2 (2011) | Joseph Cloutier (player_03) | [Web Design Museum](https://www.webdesignmuseum.org/flash-games/run-2-in-2011) | `Run2_online.swf` (players 2-4, each in their own copy of the game, online through Ruffle Together 1.0.8) |
+| The Skullkid (2002) | "made by chance" (title screen) | [Web Design Museum](https://www.webdesignmuseum.org/flash-games/the-skullkid-in-2002) | `TheSkullkid_online.swf` (a second player added, online through Ruffle Together 1.0.8) |
 
 The games belong to their developers and publishers, for use with the Multiplayer Everything launcher and
 mods. The `_online` files are the original games with the Multiplayer Everything
@@ -154,6 +155,13 @@ and it will be taken down.
   down until the match ends; the match is lost only when everyone is down. A friend who leaves is removed and the
   rest play on. With one player it is the original game.
 
+- **The Skullkid Online:** a second player added, online through Ruffle Together 1.0.8 (`--coop-keys gun-mayhem-2`,
+  `--coop-players 2`). Player 2 is a second, blue kid with a name tag; everyone uses arrows and Space on their own PC and
+  the host clicks the menus. On the chainsaw floor each kid walks and saws on their own, and whoever reaches the edge
+  of the screen scrolls it; on the shootout and boss floors the kids walk as a team and each ducks, shoots or saws on
+  their own, with one shared health bar. A friend who leaves is removed and the other plays on. With one player it is
+  the original game.
+
 - **Run 2 Online:** 2 to 4 players online through Ruffle Together 1.0.8 (`--coop-keys gun-mayhem-2`,
   `--coop-players 2-4`). Run 2 turns its whole tunnel around its one runner, so instead of sharing one tunnel every
   player runs their own copy of the game in the same session: their own Runner or Skater, level and camera, on the
@@ -249,6 +257,17 @@ sync), and test bots with 2 players from level 1 through two checkpoints to leve
 checkpoint to the final boss, with players going down and getting up again. The bots did not beat the
 last boss, so the ending is untested in co-op. Not yet played by real players on two PCs.
 Hosting needs the relay that is built into the launcher (*Host online* starts it).
+
+**The Skullkid for Ruffle Together, build of 2026-11-11** (`TheSkullkid_online.swf`, 1.0): 1 or 2 players through
+Ruffle Together 1.0.8. Tested on one PC: replays identical frame for frame with 2 players, to the ending, with both
+players playing, with only player 1 and with only player 2 doing everything, and losing the shootout and trying again
+(and identical to the original game with one player); sessions through a local relay with lag and directly with no
+desync over the whole game, the same with the friend leaving on the first floor and in the shootout; every key sent as
+a key message to two real windows on the launcher's line (and in solo), checked by what each kid did; the whole game
+to the ending in two real windows. In the scripted runs the shootouts were timed from the game's own scripts and, in
+the real windows, the team's health was kept full. Not tried on the central relay. Not yet played by real players on
+two PCs. The original game can get stuck at the boss when Space is held without key repeat; in co-op the mod makes the
+boss's death stick.
 
 **Run 2 for Ruffle Together, build of 2026-11-11** (`Run2_online.swf`, 1.0): 1 to 4 players through Ruffle Together
 1.0.8. Tested on one PC: replays identical frame for frame with 2, 3 and 4 players, and identical to the original

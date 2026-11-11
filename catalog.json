@@ -200,6 +200,15 @@
                       "description":  "Territory War for Ruffle Together: red against blue on 2-4 PCs, each player plays only their own turns, rotated or by stick (--coop-option turns=stick; --coop-keys territory-war, Ruffle Together 1.0.3.7+)"
                   },
                   {
+                      "name":  "TheSkullkid_online.swf",
+                      "game":  "theskullkid",
+                      "path":  "games/theskullkid/TheSkullkid_online.swf",
+                      "size":  723034,
+                      "sha256":  "d9f3ee4bc554d625b2eee51637a2c36af5900102be9f93ab25939d7196185696",
+                      "updated":  "2026-11-11",
+                      "description":  "The Skullkid (2002) with a second player added (local co-op), played online through Ruffle Together 1.0.8+ (--coop-keys gun-mayhem-2, --coop-players 2): each player has their own kid and presses arrows and Space on their own PC; each kid saws and shoots on their own, the team walks the shootout and boss floors together with one health bar; a friend who leaves is removed. No netcode; every player needs this exact file. 1 player is the original game."
+                  },
+                  {
                       "name":  "UltimateAssassin1_online.swf",
                       "game":  "ultimateassassin1",
                       "path":  "games/ultimateassassin1/UltimateAssassin1_online.swf",
