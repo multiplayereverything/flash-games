@@ -38,6 +38,7 @@ Questions, bugs, or looking for people to play with? Join the [Multiplayer Every
 | Run 2 (2011) | Joseph Cloutier (player_03) | [Web Design Museum](https://www.webdesignmuseum.org/flash-games/run-2-in-2011) | `Run2_online.swf` (players 2-4, each in their own copy of the game, online through Ruffle Together 1.0.8) |
 | Ultimate Flash Sonic (2004) | menace.ch (fan game) | [Web Design Museum](https://www.webdesignmuseum.org/flash-games/ultimate-flash-sonic-in-2004) | `UltimateFlashSonic_online.swf` (players 2-4 added, online through Ruffle Together 1.0.8) |
 | The Skullkid (2002) | "made by chance" (title screen) | [Web Design Museum](https://www.webdesignmuseum.org/flash-games/the-skullkid-in-2002) | `TheSkullkid_online.swf` (a second player added, online through Ruffle Together 1.0.8) |
+| The World's Hardest Game 2 (2008) | Snubby Land | [Web Design Museum](https://www.webdesignmuseum.org/flash-games/the-worlds-hardest-game-2-in-2008) | `WorldsHardestGame2_online.swf` (players 2-4 added, online through Ruffle Together 1.0.8) |
 | Flash Chess (2002) | Digital Vision Multimedia | [Web Design Museum](https://www.webdesignmuseum.org/flash-games/flash-chess-in-2002) | `FlashChess_online.swf` (a second player in place of the computer, online through Ruffle Together 1.0.8) |
 | Raze (2010) | Juice-Tin, AddisonR (Armor Games) | [Web Design Museum](https://www.webdesignmuseum.org/flash-games/raze-in-2010) | `Raze_online.swf` (players 2-4 added, a camera each, online through Ruffle Together 1.0.8) |
 
@@ -189,6 +190,14 @@ and it will be taken down.
   dies gets up after 8 seconds while anyone else is up; everyone down is the game's own rule. A friend who leaves
   becomes an AI teammate and the rest play on. With one player it is the original game.
 
+- **The World's Hardest Game 2 Online:** players 2 to 4 added, online through Ruffle Together 1.0.8
+  (`--coop-keys gun-mayhem-2`, `--coop-players 2-4`). Everyone uses arrows or WASD on their own PC and is a square in
+  one of the game's own colours with their name above it; each player's deaths are in the top bar. Every player has
+  their own checkpoint and dies on their own. Coins are shared, and a coin goes back when the player who took it dies
+  (by the game's rule for that coin). Any player can take a key, and its door stays open for the level. A level ends
+  when all coins are taken and everyone stands in the goal together. The host clicks the menus and CONTINUE. A friend
+  who leaves is removed and the rest play on. With one player it is the original game.
+
 - **The World's Hardest Game Online:** players 2 to 4 added, online through Ruffle Together 1.0.6
   (`--coop-keys gun-mayhem-2`, `--coop-players 2-4`). Everyone uses arrows or WASD on their own PC and is a
   square of their own colour with their name above it; each player's deaths are in the top bar. Each player
@@ -331,6 +340,15 @@ with no desync, the same with one friend leaving, a test bot with 3 players goin
 and its save, deaths and team wipes, and two real windows (own camera and HUD shown correctly; that lab flagged 4 late
 frames on a busy PC and was not repeated on this build). Test bots with the players unable to die played every stage to its end in separate runs, including the final boss and the ending with 2, 3 and 4 players (the bots are not real players, and some runs jumped ahead). Not yet played by real players on two PCs. The 2026-11-06 build fixes the keys: every key was checked with
 key messages sent to two and four real windows and in solo.
+
+**The World's Hardest Game 2 for Ruffle Together, build of 2026-11-11** (`WorldsHardestGame2_online.swf`, 1.0): 1 to 4
+players through Ruffle Together 1.0.8. Tested on one PC with the 1.0.8 release: replays identical frame for frame with
+2, 3 and 4 players (and identical to the original game with one player), sessions with 2, 3 and 4 players through a
+relay with lag and directly with no desync, the same with one friend leaving (2 and 4 players), a short 2-player
+session through the central relay, every movement key checked with key messages sent to 2 and 4 real windows on the
+launch line and in solo, the top bar seen in 2 and 4 real windows, and test bots with 2, 3 and 4 players walking every
+level to the finish screen. The bots can't dodge, so enemies were off for them; deaths, returning coins, the team goal
+and a leaving player's coins were tested separately. Not yet played by real players on two PCs.
 
 **The World's Hardest Game for Ruffle Together, build of 2026-11-06** (`WorldsHardestGame_online.swf`, 1.1): 1 to 4
 players through Ruffle Together 1.0.6. Tested on one PC: replays identical frame for frame with 2, 3 and 4

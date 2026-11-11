@@ -281,6 +281,15 @@
                       "description":  "The World\u0027s Hardest Game with players 2-4 added (local co-op), played online through Ruffle Together 1.0.6+ (--coop-keys gun-mayhem-2, --coop-players 2-4): every player on arrows or WASD on their own PC, own checkpoint, shared coins, and a level ends when everyone stands in the goal. With 1 player it is the original game."
                   },
                   {
+                      "name":  "WorldsHardestGame2_online.swf",
+                      "game":  "worldshardestgame2",
+                      "path":  "games/worldshardestgame2/WorldsHardestGame2_online.swf",
+                      "size":  2396347,
+                      "sha256":  "16755f4121da1d63188e3086eaea023fb655d96747b523c14d2eb3f4cc3b5eb3",
+                      "updated":  "2026-11-11",
+                      "description":  "The World\u0027s Hardest Game 2 with players 2-4 added (local co-op), played online through Ruffle Together 1.0.8+ (--coop-keys gun-mayhem-2, --coop-players 2-4): every player on arrows or WASD on their own PC, own checkpoint and deaths, shared coins and keys, and a level ends when everyone stands in the goal. With 1 player it is the original game."
+                  },
+                  {
                       "name":  "Zombotron_online.swf",
                       "game":  "zombotron",
                       "path":  "games/zombotron/Zombotron_online.swf",
