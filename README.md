@@ -41,6 +41,7 @@ Questions, bugs, or looking for people to play with? Join the [Multiplayer Every
 | The World's Hardest Game 2 (2008) | Snubby Land | [Web Design Museum](https://www.webdesignmuseum.org/flash-games/the-worlds-hardest-game-2-in-2008) | `WorldsHardestGame2_online.swf` (players 2-4 added, online through Ruffle Together 1.0.8) |
 | Flash Chess (2002) | Digital Vision Multimedia | [Web Design Museum](https://www.webdesignmuseum.org/flash-games/flash-chess-in-2002) | `FlashChess_online.swf` (a second player in place of the computer, online through Ruffle Together 1.0.8) |
 | Raze (2010) | Juice-Tin, AddisonR (Armor Games) | [Web Design Museum](https://www.webdesignmuseum.org/flash-games/raze-in-2010) | `Raze_online.swf` (players 2-4 added, a camera each, online through Ruffle Together 1.0.8) |
+| Portal: The Flash Version (2007) | We Create Stuff | [Web Design Museum](https://www.webdesignmuseum.org/flash-games/portal-the-flash-version-in-2007) | `PortalFlash_online.swf` (players 2-4 added, online through Ruffle Together 1.0.8) |
 
 The games belong to their developers and publishers, for use with the Multiplayer Everything launcher and
 mods. The `_online` files are the original games with the Multiplayer Everything
@@ -239,6 +240,15 @@ with your own relay and type its address under SERVER.
   with them and the rest play on. Number keys don't pick guns (Q/E and Shift/Enter do). With one player it is the
   original game.
 
+- **Portal: The Flash Version Online:** players 2 to 4 added, online through Ruffle Together 1.0.8 (`--coop-keys gun-mayhem-2`,
+  `--coop-players 2-4`; the game sets its own keys when it starts). Each player has their own test subject on the game's
+  own keys and their own mouse to aim the portal gun, with their own crosshair and name. The team shares one blue and
+  one orange portal: anyone can shoot either colour and the last shot wins. Floor buttons, boxes, turrets, crushers,
+  energy balls, electric fields, elevators and the level triggers work for every player; each player carries their own
+  box, and grabbing one a friend holds takes it. One death restarts the chamber for everyone, and the next chamber starts
+  when everyone is through the exit door. Only the host uses the menus. A friend who leaves is removed and the rest play
+  on. With one player it is the original game.
+
 ## Test status
 
 **Stealth Hunter 2 co-op for Ruffle Together, build of 2026-10-31** (`stealthhunter2_online.swf`,
@@ -315,6 +325,15 @@ to the ending in two real windows. In the scripted runs the shootouts were timed
 the real windows, the team's health was kept full. Not tried on the central relay. Not yet played by real players on
 two PCs. The original game can get stuck at the boss when Space is held without key repeat; in co-op the mod makes the
 boss's death stick.
+
+**Portal: The Flash Version for Ruffle Together, build of 2026-11-11** (`PortalFlash_online.swf`, 1.0): 1 to 4 players
+through Ruffle Together 1.0.8. Tested on one PC: replays identical frame for frame with 2, 3 and 4 players, and
+identical to the original game with one player (chambers 1, 21, 25 and 29); sessions with 2, 3 and 4 players through a
+local relay with lag and directly with no desync, also with a friend leaving; all 41 chambers and the credits with 2, 3
+and 4 players, by a lab build that walks each player to every exit (not by solving the puzzles), and the same in two
+real windows; player 2 checked on buttons, boxes, portals, turrets, crushers, energy balls, electric fields, elevators,
+deaths and the exit; every key sent as a key message to two real windows on the launcher's line (one of two runs lost
+keys partway, the other passed every key). Not tried on the central relay. Not yet played by real players on two PCs.
 
 **Run 2 for Ruffle Together, build of 2026-11-11** (`Run2_online.swf`, 1.0): 1 to 4 players through Ruffle Together
 1.0.8. Tested on one PC: replays identical frame for frame with 2, 3 and 4 players, and identical to the original

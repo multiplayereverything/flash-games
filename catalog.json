@@ -137,6 +137,15 @@
                       "description":  "Madness: Project Nexus (Classic) with players 2-4 added (local co-op), played online through Ruffle Together 1.0.6+ (--coop-keys stealth-hunter-2, --coop-players 2-4): every player on the game\u0027s own keys and own mouse on their own PC, with their own camera, HUD and aim, in Story and Arena; a player who dies gets up while anyone else is up; a friend who leaves becomes an AI teammate. No netcode; every player needs this exact file. 1 player is the original game."
                   },
                   {
+                      "name":  "PortalFlash_online.swf",
+                      "game":  "portalflash",
+                      "path":  "games/portalflash/PortalFlash_online.swf",
+                      "size":  7108449,
+                      "sha256":  "efc7ec4fc92a2dc446f7507a90b19cc87b8054a3c5d0a87f53dd667b14e08421",
+                      "updated":  "2026-11-11",
+                      "description":  "Portal: The Flash Version (2007, We Create Stuff) with players 2-4 added (local co-op), played online through Ruffle Together 1.0.8+ (--coop-keys gun-mayhem-2, --coop-players 2-4): every player has their own test subject, keys, mouse, crosshair and name; the team shares one blue and one orange portal; one death restarts the chamber for everyone and the next chamber starts when everyone is through the exit. No netcode; every player needs this exact file. 1 player is the original game."
+                  },
+                  {
                       "name":  "RaftWars_online.swf",
                       "game":  "raftwars",
                       "path":  "games/raftwars/RaftWars_online.swf",
